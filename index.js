@@ -38,7 +38,7 @@ function parse(url, fn) {
       // TODO hierarchical
       if ('h' == name[0]) {
         var text = $(this).text().trim();
-        cat = data[text] = {};
+        cat = data[text] = [];
         return;
       }
 
@@ -47,10 +47,10 @@ function parse(url, fn) {
       var name = a.text().trim();
       var href = a.attr('href').replace(/\/$/, '');
 
-      cat[name] = {
+      cat.push({
         name: name,
         url: href
-      };
+      });
     });
 
     fn(null, data);
