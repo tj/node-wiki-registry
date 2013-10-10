@@ -49,7 +49,7 @@ function parse(url, fn) {
 
       // description
       var text = $(this).text().replace(name, '');
-      var desc = text.replace(/^\s*[—-] */, '');
+      var desc = text.replace(/^\s*[—–-]? */, '');
 
       cat.push({
         name: name,
