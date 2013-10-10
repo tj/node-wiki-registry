@@ -47,9 +47,14 @@ function parse(url, fn) {
       var name = a.text().trim();
       var href = a.attr('href').replace(/\/$/, '');
 
+      // description
+      var text = $(this).text().replace(name, '');
+      var desc = text.replace(/^\s*[—-] */, '');
+
       cat.push({
         name: name,
-        url: href
+        url: href,
+        description: desc
       });
     });
 
