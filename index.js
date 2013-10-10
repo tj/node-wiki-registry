@@ -43,15 +43,13 @@ function parse(url, fn) {
       }
 
       // package
-      var desc = $(this).text().split(/[—-]/)[1].trim();
       var a = $(this).find('a');
       var name = a.text().trim();
       var href = a.attr('href').replace(/\/$/, '');
 
       cat[name] = {
         name: name,
-        url: href,
-        description: desc
+        url: href
       };
     });
 

@@ -28,90 +28,64 @@ wiki('https://github.com/clibs/clib/wiki/Packages', function(err, pkgs){
 { Utilities: 
    { 'clibs/hash': 
       { name: 'clibs/hash',
-        url: 'https://github.com/visionmedia/hash.c',
-        description: 'hash library built on zhash' },
+        url: 'https://github.com/visionmedia/hash.c' },
      'clibs/rgba': 
       { name: 'clibs/rgba',
-        url: 'https://github.com/visionmedia/rgba.c',
-        description: 'rgba color string parser' },
+        url: 'https://github.com/visionmedia/rgba.c' },
      'clibs/unlikely': 
       { name: 'clibs/unlikely',
-        url: 'https://github.com/visionmedia/unlikely.c',
-        description: 'gcc branch prediction macros' },
+        url: 'https://github.com/visionmedia/unlikely.c' },
      'clibs/timestamp': 
       { name: 'clibs/timestamp',
-        url: 'https://github.com/visionmedia/timestamp.c',
-        description: 'millisecond resolution timestamps' },
+        url: 'https://github.com/visionmedia/timestamp.c' },
      'clibs/commander': 
       { name: 'clibs/commander',
-        url: 'https://github.com/visionmedia/commander.c',
-        description: 'expressive argument parser' },
-     'clibs/ms': 
-      { name: 'clibs/ms',
-        url: 'https://github.com/visionmedia/ms.c',
-        description: 'millisecond parser / formatter util' },
+        url: 'https://github.com/visionmedia/commander.c' },
+     'clibs/ms': { name: 'clibs/ms', url: 'https://github.com/visionmedia/ms.c' },
      'clibs/bytes': 
       { name: 'clibs/bytes',
-        url: 'https://github.com/visionmedia/bytes.c',
-        description: 'byte' },
+        url: 'https://github.com/visionmedia/bytes.c' },
      'clibs/term': 
       { name: 'clibs/term',
-        url: 'https://github.com/visionmedia/term.c',
-        description: 'terminal utilities' },
+        url: 'https://github.com/visionmedia/term.c' },
      'clibs/buffer': 
       { name: 'clibs/buffer',
-        url: 'https://github.com/visionmedia/buffer.c',
-        description: 'tiny c' },
+        url: 'https://github.com/visionmedia/buffer.c' },
      'nami-doc/trim.c': 
       { name: 'nami-doc/trim.c',
-        url: 'https://github.com/Nami-Doc/trim.c',
-        description: 'doc/trim.c' },
+        url: 'https://github.com/Nami-Doc/trim.c' },
      'nami-doc/strlen.c': 
       { name: 'nami-doc/strlen.c',
-        url: 'https://github.com/Nami-Doc/strlen.c',
-        description: 'doc/strlen.c' },
-     'jwerle/url.h': 
-      { name: 'jwerle/url.h',
-        url: 'https://github.com/jwerle/url.h',
-        description: 'Parse URLs in C much like Node\'s url module.' },
+        url: 'https://github.com/Nami-Doc/strlen.c' },
+     'jwerle/url.h': { name: 'jwerle/url.h', url: 'https://github.com/jwerle/url.h' },
      'jwerle/progress.h': 
       { name: 'jwerle/progress.h',
-        url: 'https://github.com/jwerle/progress.h',
-        description: 'Progress display lib for c' },
+        url: 'https://github.com/jwerle/progress.h' },
      'jwerle/fs.h': 
       { name: 'jwerle/fs.h',
-        url: 'https://github.com/jwerle/progress.h',
-        description: 'File system API much like Node\'s fs module' },
+        url: 'https://github.com/jwerle/progress.h' },
      'jwerle/path.h': 
       { name: 'jwerle/path.h',
-        url: 'https://github.com/jwerle/path.h',
-        description: 'Split a delimited path string into a char array like the $PATH variable' },
+        url: 'https://github.com/jwerle/path.h' },
      'stephenmathieson/trim.c': 
       { name: 'stephenmathieson/trim.c',
-        url: 'https://github.com/stephenmathieson/trim.c',
-        description: 'string trim with left and right support' },
+        url: 'https://github.com/stephenmathieson/trim.c' },
      'stpehenmathieson/case.c': 
       { name: 'stpehenmathieson/case.c',
-        url: 'https://github.com/stephenmathieson/case.c',
-        description: 'string case conversion' } },
+        url: 'https://github.com/stephenmathieson/case.c' } },
   Executables: 
    { 'visionmedia/watch': 
       { name: 'visionmedia/watch',
-        url: 'https://github.com/visionmedia/watch',
-        description: 'periodically execute commands' },
+        url: 'https://github.com/visionmedia/watch' },
      'visionmedia/every': 
       { name: 'visionmedia/every',
-        url: 'https://github.com/visionmedia/every',
-        description: 'simple crontab alternative' },
+        url: 'https://github.com/visionmedia/every' },
      'visionmedia/mon': 
       { name: 'visionmedia/mon',
-        url: 'https://github.com/visionmedia/mon',
-        description: 'simple process monitoring' },
+        url: 'https://github.com/visionmedia/mon' },
      'visionmedia/histo': 
       { name: 'visionmedia/histo',
-        url: 'https://github.com/visionmedia/histo/issues/2',
-        description: 'display histograms from static or streaming input' } } }
-
+        url: 'https://github.com/visionmedia/histo/issues/2' } } }
 ```
 
 # License
