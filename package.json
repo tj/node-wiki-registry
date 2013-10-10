@@ -1,0 +1,15 @@
+{
+  "name": "wiki-registry",
+  "version": "0.0.1",
+  "description": "Github wiki-driven registry scraper",
+  "main": "index.js",
+  "keywords": [
+    "registry",
+    "github",
+    "wiki"
+  ],
+  "dependencies": {
+    "cheerio": "0.12.3",
+    "superagent": "0.15.5"
+  }
+}
