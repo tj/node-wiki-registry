@@ -8,6 +8,17 @@
 
     $ npm install wiki-registry
 
+## API
+
+```js
+var wiki = require('wiki-registry');
+
+wiki('https://github.com/clibs/clib/wiki/Packages', function(err, pkgs){
+  if (err) throw err;
+  console.log(pkgs);
+});
+```
+
 ## Example
 
   For example scraping an early version of https://github.com/clibs/clib/wiki/Packages
