@@ -32,7 +32,7 @@ function parse(url, fn) {
     var cat;
 
     $('#wiki-body h2, #wiki-body h2 + ul li').each(function(){
-      var name = this[0].name;
+      var name = this.name;
 
       // heading
       // TODO hierarchical
