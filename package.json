@@ -9,7 +9,7 @@
     "wiki"
   ],
   "dependencies": {
-    "cheerio": "^0.2.2",
+    "cheerio": "0.20.0",
     "superagent": "^3.5.2"
   }
 }
